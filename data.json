@@ -1,0 +1,44 @@
+{
+  "source": "手工构造的教学模拟数据；不是 PuppyOne 真实数据",
+  "previousPeriod": "模拟第 1 周（7 天）",
+  "currentPeriod": "模拟第 2 周（7 天）",
+  "pages": [
+    {
+      "id": "article-a",
+      "title": "文章 A：Agent 权限",
+      "previous": {
+        "impressions": 1000,
+        "clicks": 50
+      },
+      "current": {
+        "impressions": 1500,
+        "clicks": 50
+      }
+    },
+    {
+      "id": "article-b",
+      "title": "文章 B：共享上下文",
+      "previous": {
+        "impressions": 800,
+        "clicks": 40
+      },
+      "current": {
+        "impressions": 1000,
+        "clicks": 70
+      }
+    },
+    {
+      "id": "article-c",
+      "title": "文章 C：知识管理",
+      "previous": {
+        "impressions": 600,
+        "clicks": 30
+      },
+      "current": {
+        "impressions": 500,
+        "clicks": 20
+      }
+    }
+  ]
+}
+

@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-10-15T04:39:14.771Z",
+  "mode": "规则计算；未调用 AI",
+  "source": "手工构造的教学模拟数据；不是 PuppyOne 真实数据",
+  "dataSha256": "f45bd1c355251bd86d68f9f5abf9951f8b7b98c12a529278824dbf42964472c5",
+  "periods": {
+    "previous": "模拟第 1 周（7 天）",
+    "current": "模拟第 2 周（7 天）"
+  },
+  "thresholdPercent": 20,
+  "totals": {
+    "previous": {
+      "impressions": 2400,
+      "clicks": 120
+    },
+    "current": {
+      "impressions": 3000,
+      "clicks": 140
+    }
+  },
+  "rows": [
+    {
+      "id": "article-a",
+      "title": "文章 A：Agent 权限",
+      "previous": {
+        "impressions": 1000,
+        "clicks": 50
+      },
+      "current": {
+        "impressions": 1500,
+        "clicks": 50
+      },
+      "clickChangePercent": 0,
+      "previousCtr": 5,
+      "currentCtr": 3.3333333333333335,
+      "observation": "点击变化未达到设定阈值。 曝光增加但点击未增加；不能仅凭这些数据认定标题有问题。"
+    },
+    {
+      "id": "article-b",
+      "title": "文章 B：共享上下文",
+      "previous": {
+        "impressions": 800,
+        "clicks": 40
+      },
+      "current": {
+        "impressions": 1000,
+        "clicks": 70
+      },
+      "clickChangePercent": 75,
+      "previousCtr": 5,
+      "currentCtr": 7.000000000000001,
+      "observation": "点击明显增加，可进一步查看增长来自哪些搜索词。"
+    },
+    {
+      "id": "article-c",
+      "title": "文章 C：知识管理",
+      "previous": {
+        "impressions": 600,
+        "clicks": 30
+      },
+      "current": {
+        "impressions": 500,
+        "clicks": 20
+      },
+      "clickChangePercent": -33.33333333333333,
+      "previousCtr": 5,
+      "currentCtr": 4,
+      "observation": "点击明显减少，可进一步按搜索词和设备排查。"
+    }
+  ]
+}

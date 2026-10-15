@@ -1,0 +1,14 @@
+{
+  "name": "railway-analysis-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "零依赖的定时数据分析入门练习，使用模拟数据，不调用 AI。",
+  "scripts": {
+    "start": "node run.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
+
