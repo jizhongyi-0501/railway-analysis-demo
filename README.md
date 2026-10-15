@@ -1,0 +1,2 @@
+# railway-analysis-demo
+这是一个模拟从本地文件程序写入到github上传再到通过railway部署云端的流程
